@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+main header {
+  height: 110px;
+  padding: auto;
+  background-color: #ffffff;
+}
+main header input[type="search"] {
+  padding: 12px;
+  margin-top: 30px;
+  border: none;
+  font-size: 16px;
+  background-color: #f5f4f8;
+}
+main {
+}
+body {
+  background-color: #f5f4f8;
+}
+main #doct {
+  border-radius: 25px;
+  background: #ffffff;
+  padding: 20px;
+  width: 320px;
+  height: 650px;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+.status {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 7px;
+}
+.green {
+  background-color: greenyellow;
+}
+main #doct h5 {
+  color: grey;
+  margin-top: -20px;
+  margin-left: 3px;
+}
+.checked {
+  color: orange;
+}
+main #doct h3 {
+  margin-top: 5px;
+}
+main #doct h6 {
+  margin-top: -11px;
+  color: grey;
+}
+main #doct .chatbutton {
+  background-color: #7ed991;
+  border: none;
+  color: white;
+  padding: 7px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10.4px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  width: 120px;
+  height: 30px;
+}
+.anothergreen {
+  background-color: #7ed991;
+}
+.silver {
+  background-color: #cecece;
+}
+main #doct #switch {
+  margin-top: 50px;
+  float: right;
+}
+main #doct #arrow-right {
+  display: block;
+  margin: 30px auto;
+  width: 25px;
+  height: 25px;
+  border-top: 2px solid #7ed991;
+  border-left: 2px solid #7ed991;
+  transform: rotate(135deg);
+  float: right;
+  margin-right: -150px;
+}
+main #doct #arrow-left {
+  display: block;
+  margin: 30px auto;
+  width: 25px;
+  height: 25px;
+  border-top: 2px solid #7ed991;
+  border-left: 2px solid #7ed991;
+  transform: rotate(-45deg);
+  float: left;
+  margin-left: -150px;
+}
+main .loadbutton {
+  background-color: #7ed991;
+  color: white;
+  padding: 25px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 100px;
+  width: 320px;
+  height: 70px;
+  margin-top: 10px;
+}

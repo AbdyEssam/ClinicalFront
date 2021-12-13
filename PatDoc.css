@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(images/bg.png);
+  height: 100vh;
+  width: 90%;
+  background-position: center;
+  background-size: cover;
+  padding-left: 5;
+  padding-right: 5;
+  box-sizing: border-box;
+  position: relative;
+  background-color: white;
+  font-family: Arial;
+}
+.logo {
+  width: 200px;
+  cursor: pointer;
+  position: absolute;
+  left: 45%;
+  top: 0%;
+}
+.doctor {
+  width: 200px;
+  cursor: pointer;
+  position: absolute;
+  left: 61.5%;
+  top: 30%;
+}
+.patient {
+  width: 200px;
+  cursor: pointer;
+  position: absolute;
+  left: 29%;
+  top: 30%;
+}

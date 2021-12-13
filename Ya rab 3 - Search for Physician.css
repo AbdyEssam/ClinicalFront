@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+main header {
+  height: 110px;
+  padding: auto;
+  background-color: #ffffff;
+}
+main header input[type="search"] {
+  padding: 12px;
+  margin-top: 30px;
+  border: none;
+  font-size: 16px;
+  font-family:"Verdana, Geneva, Tahoma, sans-serif";
+  background-color: #f5f4f8;
+}
+
+
+body {
+  background-color: #f5f4f8;
+  
+}
+
+/* Three columns side by side */
+.column {
+    float: left;
+    width: 30%;
+    margin-bottom: 10%;
+    margin-left: 30px;
+  }
+  
+ 
+  /* Add some shadows to create a card effect */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+
+  main #doct {
+    border-radius: 25px;
+    background: #ffffff;
+    padding: 20px;
+    width: 320px;
+    height: 650px;
+    align-content: center;
+    margin-top: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .status {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 7px;
+  }
+  .green {
+    background-color: greenyellow;
+  }
+  main #doct h5 {
+    color: grey;
+    margin-top: -20px;
+    margin-left: 3px;
+  }
+  .checked {
+    color: orange;
+  }
+  main #doct h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 5px;
+  }
+  main #doct h6 {
+    margin-top: -11px;
+    color: grey;
+  }
+  main #doct .Detailsbutton {
+    background-color: #7ed991;
+    border: none;
+    color: white;
+    padding: 7px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    width: 120px;
+    height: 30px;
+  }
+ 
+
+  /* Some left and right padding inside the container */
+  .container {
+    padding: 0 5px;
+  }
+  
+ 

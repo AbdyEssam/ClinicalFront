@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(images/bg.png);
+  height: 100vh;
+  width: 90%;
+  background-position: center;
+  background-size: cover;
+  padding-left: 5;
+  padding-right: 5;
+  box-sizing: border-box;
+  position: relative;
+  background-color: white;
+  font-family: Arial;
+}
+
+.logo {
+  width: 150px;
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  top: 0%;
+}
+.bones {
+  width: 200px;
+  cursor: pointer;
+  position: absolute;
+  left: 69.5%;
+  top: 45%;
+}
+.intmeds {
+  width: 200px;
+  cursor: pointer;
+  position: absolute;
+  left: 32%;
+  top: 45%;
+}
